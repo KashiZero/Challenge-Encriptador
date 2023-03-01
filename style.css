@@ -3,7 +3,7 @@
     padding: 30px;
     text-align: center;
     background-image: url(imagenes/7kmF.gif);
-    background-size: 10%;
+    background-size: 15%;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -119,6 +119,7 @@ body{
 
     .logo{
         margin-left: 60%;
+        background-size: 10%;
     }
 
     .resultado{
