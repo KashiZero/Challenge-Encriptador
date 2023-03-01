@@ -1,0 +1,136 @@
+.logo {
+    margin: 20px;
+    padding: 30px;
+    text-align: center;
+    background-image: url(imagenes/7kmF.gif);
+    background-size: 10%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+body{
+    background-image: url(imagenes/e88f088e-643e-4dde-8b34-411a8a8698e4.gif);
+    background-size: 100%;
+    font-size: 20px;
+}
+
+.cuerpo{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.introducirdato{
+    display: inline-block;
+    text-align: center;
+}
+
+.input-texto {
+    border-radius: 8px;
+    font-size: 30px;
+    background: none;
+    color: whitesmoke;
+    display: block;
+    position: relative;
+}
+
+.botones {
+    display: block;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.encriptar {
+    width: 200px;
+    height: 50px;
+    color: whitesmoke;  
+    background: none;
+    font-weight: bold;
+    font-size: 26px;
+    border-color: whitesmoke;
+    border-radius: 20px;
+}
+
+.encriptar:hover{
+    background-position: center;
+    background-image: url(imagenes/ncEgy9zpi.gif);
+    background-size: 100%;
+}
+
+.desencriptar {
+    width: 200px;
+    height: 50px;
+    margin-left: 30px;
+    background: none;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 24px;
+    border-color: whitesmoke;
+    border-radius: 20px;
+}
+
+.desencriptar:hover{
+    background-image: url(imagenes/ncEgy9zpi.gif);
+    background-size: 100%;
+}
+
+.resultado{
+    display: inline-block;
+    text-align: center;
+}
+
+.mensaje {
+    margin-left: 80px;
+    font-size: 30px;
+    background: none;
+    border-radius: 10px;
+    color: whitesmoke;
+    position: relative;
+}
+
+.copiar {
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    border-color: whitesmoke;
+    margin-top: 20px;
+    margin-left: 160px;
+    color: whitesmoke;
+    font-size: 26px;
+    font-weight: bold;
+    background: none;
+}
+
+.copiar:hover{
+    background-image: url(imagenes/ncEgy9zpi.gif);
+    background-size: 100%;
+    background-position: center;
+}
+
+@media screen and (max-width: 576px){
+    .introducirdato.resultado.input-texto.botones.mensaje.copiar{
+        vertical-align: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        text-align: center;
+        position: center;
+    }
+
+    .logo{
+        margin-left: 60%;
+    }
+
+    .resultado{
+        text-align: center;
+    }
+    
+    .mensaje{
+        margin-top: 60px;
+        margin-left: 170px;
+    }
+
+    .copiar{
+        margin-left: 240px;
+    }
+}
